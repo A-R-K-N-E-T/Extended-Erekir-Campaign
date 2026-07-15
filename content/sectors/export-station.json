@@ -8,6 +8,10 @@
                 type: "SectorComplete",
                 preset: "ravine"
             }
+            {
+                type: "SectorComplete",
+                preset: "Northern-Cave"
+            }
         ]
     },
     difficulty: 6,
