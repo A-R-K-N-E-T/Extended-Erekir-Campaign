@@ -1,0 +1,18 @@
+
+    sector: 7,
+    planet: "erekir",
+    research: {
+        parent: "karst",
+        objectives: [
+        "basic-assembler-module"
+        "disrupt"
+            {
+                type: "SectorComplete",
+                preset: "karst"
+            }
+        ]
+    },
+    difficulty: 9,
+    localizedName: "Горный барьер",
+    description: "Горный сектор, который создаёт естественный барьер между [accent]Болотом[] и [accent]Цитаделью[]. В этой местности находиться вражеская база с большим количеством производства.
+Уничтожьте этот барьер, чтобы открыть прямой путь от [accent]Болота[] до [accent]Цитадели[]."

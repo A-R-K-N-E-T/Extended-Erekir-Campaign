@@ -1,0 +1,17 @@
+
+    sector: 49,
+    planet: "erekir",
+    research: {
+        parent: "origin",
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: "origin"
+            }
+        ]
+    },
+    difficulty: 10,
+    localizedName: "Опасная зона: Источник",
+    description: "Одна из главных баз [purple]Малис[] в этом регионе. Враг будет пытаться выгнать вас из этого сектора. Уничтожьте эту Цитадель врага.
+    
+    [red]Если вы это читаете - ни за что, сука, не пытайтесь это пройти!...[] - iqtik123"

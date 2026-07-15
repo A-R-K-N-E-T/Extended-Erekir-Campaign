@@ -1,0 +1,19 @@
+
+    sector: 1,
+    planet: "erekir",
+    research: {
+        parent: "peaks",
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: "ravine"
+            }
+            {
+                type: "SectorComplete",
+                preset: "peaks"
+            }
+        ]
+    },
+    difficulty: 5,
+    localizedName: "Горное озеро",
+    description: "Данный сектор является горным озером с большим количеством островов. Тут присутствует большое производство летающих единиц, так что захватить сектор будет не так легко."

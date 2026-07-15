@@ -1,0 +1,19 @@
+
+    sector: 56,
+    planet: "erekir",
+    captureWave: 26
+    research: {
+        parent: "atlas",
+        objectives: [
+        "electrolyzer"
+        "impact-drill"
+            {
+                type: "SectorComplete",
+                preset: "atlas"
+            }
+        ]
+    },
+    difficulty: 6,
+    localizedName: "Троепутье",
+    description: "Данный сектор весьма богат на ресурсы, но противник не хочет допустить захвата этого сектора, поэтому он будет всеми силами пытаться уничтожить вас.
+Также мы изучили технологию [accent]ускорения буров[]. Опробуйте её в действии."

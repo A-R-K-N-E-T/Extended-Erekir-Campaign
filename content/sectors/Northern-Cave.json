@@ -1,0 +1,22 @@
+
+    sector: 6,
+    planet: "erekir",
+    research: {
+        parent: "basin",
+        objectives: [
+        "payload-mass-driver"
+        "payload-loader"
+        "payload-unloader"
+            {
+                type: "SectorComplete",
+                preset: "basin"
+            }
+            {
+                type: "SectorComplete",
+                preset: "split"
+            }
+        ]
+    },
+    difficulty: 5,
+    localizedName: "Северная пещера",
+    description: "Очередной сектор с постройками Малиса. Имеет очень сильную защиту, но небольшое производство юнитов. В защите обнаружены новые технологии обороны, которые мы ещё не изучили. Как же прорвать оборону врага? Может, её стоит [accent]обойти[]?"

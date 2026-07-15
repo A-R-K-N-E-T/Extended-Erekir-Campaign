@@ -1,0 +1,19 @@
+
+    sector: 54,
+    planet: "erekir",
+    research: {
+        parent: "marsh",
+        objectives: [
+        "chemical-combustion-chamber"
+        "oxidation-chamber"
+        "small-deconstructor"
+            {
+                type: "SectorComplete",
+                preset: "marsh"
+            }
+        ]
+    },
+    difficulty: 5,
+    localizedName: "Бериллиевый бастион",
+    description: "Вражеский бастион, который находится на южном полюсе. Главный сектор в этом регионе, с огромным вражеским присутствием. Большое количество бериллия и аркицита.
+Захватите эту крепость."

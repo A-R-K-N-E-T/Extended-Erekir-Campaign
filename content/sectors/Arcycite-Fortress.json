@@ -1,0 +1,31 @@
+
+    sector: 70,
+    planet: "erekir",
+    research: {
+        parent: "Northern-Cave",
+        objectives: [
+        "mech-refabricator"
+        "chemical-combustion-chamber"
+        "oxidation-chamber"
+            {
+                type: "SectorComplete",
+                preset: "basin"
+            }
+            {
+                type: "SectorComplete",
+                preset: "Threeways"
+            }
+            {
+                type: "SectorComplete",
+                preset: "marsh"
+            }
+            {
+                type: "SectorComplete",
+                preset: "Northern-Cave"
+            }
+        ]
+    },
+    difficulty: 7,
+    localizedName: "Аркицитовая крепость",
+    description: "Сердце базы находится в Аркицитовом биоме, из-за чего сектор так прозвали.
+Мы обнаружили на нём новую турель, которая атакует на огромную дистанцию, с огромным уроном, но с маленькой скорострельностью. Мы пока что не знаем, как противостоять этой турели, но кто сказал, что она атакует по [accent]воздушным единицам[]?."

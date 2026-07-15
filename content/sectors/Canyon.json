@@ -1,0 +1,22 @@
+
+    sector: 4,
+    planet: "erekir",
+    research: {
+        parent: "Trade-Pass",
+        objectives: [
+        "payload-mass-driver"
+        "payload-loader"
+        "payload-unloader"
+            {
+                type: "SectorComplete",
+                preset: "Threeways"
+            }
+            {
+                type: "SectorComplete",
+                preset: "export-station"
+            }
+        ]
+    },
+    difficulty: 4,
+    localizedName: "Каньйон",
+    description: "Каньйон, что соединяет 2 вражеские базы через Троепутье. В нём находится ничем не примечательная вражеская база, которая, видимо, была построена совсем недавно и может быть усилена в ближайшем будующем. Уничтожьте её пока враги не стали сильнее."

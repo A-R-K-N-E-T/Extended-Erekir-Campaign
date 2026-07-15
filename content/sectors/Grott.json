@@ -1,0 +1,19 @@
+
+    sector: 44,
+    planet: "erekir",
+    research: {
+        parent: "karst",
+        objectives: [
+        "malign"
+        "phase-heater"
+            {
+                type: "SectorComplete",
+                preset: "karst"
+            }
+        ]
+    },
+    difficulty: 7,
+    localizedName: "Гротт",
+    description: "Разведка показала, что враг имеет большое количество производства единиц 1-3 уровня, следовательно, он будет оказывать постоянное давление.
+
+Титан атакует слабо и не часто, пламени имеют маленькую дальность... Однако, есть турель [accent]Злоба[]. Может, она поможет?..."

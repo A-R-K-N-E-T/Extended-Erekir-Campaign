@@ -1,0 +1,29 @@
+
+    sector: 87,
+    planet: "erekir",
+    research: {
+        parent: "stronghold",
+        objectives: [
+        "prime-refabricator"
+        "titan"
+        "precept"
+        "anthicus"
+        "obviate"
+        "large-plasma-bore"
+            {
+                type: "SectorComplete",
+                preset: "Threeways"
+            }
+            {
+                type: "SectorComplete",
+                preset: "stronghold"
+            }
+            {
+                type: "SectorComplete",
+                preset: "Beryllium-bastion"
+            }
+        ]
+    },
+    difficulty: 8,
+    localizedName: "Аркицитовые равнины",
+    description: "Сектор с большим количеством аркицита. Также этот сектор известен своим большим количеством аванпостов и баз, некоторые из них контролируют высокоуровневые ресурсы. Уничтожьте все вражеские ядра."
