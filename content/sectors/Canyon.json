@@ -10,6 +10,9 @@
             {
                 type: "SectorComplete",
                 preset: "export-station"
+            {
+                type: "SectorComplete",
+                preset: "Arcycite-Fortress"
             }
         ]
     },
