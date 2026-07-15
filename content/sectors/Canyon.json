@@ -2,7 +2,7 @@
     sector: 4,
     planet: "erekir",
     research: {
-        parent: "Trade-Pass",
+        parent: "export-station",
         objectives: [
         "payload-mass-driver"
         "payload-loader"
