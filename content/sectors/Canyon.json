@@ -9,10 +9,6 @@
         "payload-unloader"
             {
                 type: "SectorComplete",
-                preset: "Threeways"
-            }
-            {
-                type: "SectorComplete",
                 preset: "export-station"
             }
         ]
