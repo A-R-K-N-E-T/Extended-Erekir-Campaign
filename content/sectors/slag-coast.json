@@ -1,0 +1,16 @@
+
+    sector: 90,
+    planet: "erekir",
+    research: {
+        parent: "lake",
+        objectives: [
+        "ship-fabricator"
+            {
+                type: "SectorComplete",
+                preset: "lake"
+            }
+        ]
+    },
+    difficulty: 3,
+    localizedName: "Шлаковый берег",
+    description: "Сектор, имеющий выход к Шлаковому морю, полному скал и островов. Местоположение сектора идеально для рейдов морских баз, однако, тут уже укрепился враг. Уничтожите врага. Увеличьте производство вольфрама."
