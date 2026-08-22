@@ -1,4 +1,4 @@
-This mod adds 12/?? (currently) new sectors to the Erekir campaign. Each offers its own gameplay experience and differs in difficulty. The full list of new sectors:
+This mod adds 15/?? (currently) new sectors to the Erekir campaign. Each offers its own gameplay experience and differs in difficulty. The full list of new sectors:
 - Arcycite Fortress;
 - Arcycite Passage;
 - Arcycite Plains;
@@ -11,4 +11,6 @@ This mod adds 12/?? (currently) new sectors to the Erekir campaign. Each offers 
 - Northern Cave;
 - Slag Coast;
 - Threeways;
-- Upper Coast; Comment: This sector hasn't yet been added to the campaign, but it's already present in the mod. It will be added in mod version 1.1.
+- Upper Coast;
+- Eastern Forest;
+- Bog.
