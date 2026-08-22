@@ -1,0 +1,21 @@
+
+    sector: 13,
+    planet: "erekir",
+    research: {
+        parent: "Eastern-Forest",
+        objectives: [
+        "mech-refabricator"
+        "ship-refabricator"
+        "shockwave-tower"
+        "quell"
+            {
+                type: "SectorComplete",
+                preset: "Eastern-Forest"
+            }
+            {
+                type: "SectorComplete",
+                preset: "crossroads"
+            }
+        ]
+    },
+    difficulty: 8

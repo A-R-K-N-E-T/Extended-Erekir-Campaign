@@ -1,0 +1,19 @@
+
+    sector: 75,
+    planet: "erekir",
+    research: {
+        parent: "siege",
+        objectives: [
+        "mech-assembler"
+        "tecta"
+            {
+                type: "SectorComplete",
+                preset: "siege"
+            }
+            {
+                type: "SectorComplete",
+                preset: "Arcycite-Fortress"
+            }
+        ]
+    },
+    difficulty: 7

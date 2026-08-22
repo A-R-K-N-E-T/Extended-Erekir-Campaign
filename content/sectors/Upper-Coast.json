@@ -1,0 +1,13 @@
+
+    sector: 86,
+    planet: "erekir",
+    research: {
+        parent: "intersect",
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: "intersect"
+            }
+        ]
+    },
+    difficulty: 3
