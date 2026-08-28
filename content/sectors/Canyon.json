@@ -2,18 +2,18 @@
     sector: 4,
     planet: "erekir",
     research: {
-        parent: "export-station",
+        parent: "Threeways",
         objectives: [
         "payload-mass-driver"
         "payload-loader"
         "payload-unloader"
             {
                 type: "SectorComplete",
-                preset: "export-station"
+                preset: "marsh"
             }
             {
                 type: "SectorComplete",
-                preset: "Arcycite-Fortress"
+                preset: "Threeways"
             }
         ]
     },
