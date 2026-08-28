@@ -2,7 +2,7 @@
     sector: 16,
     planet: "erekir",
     research: {
-        parent: "split",
+        parent: "ravine",
         objectives: [
             {
                 type: "SectorComplete",
@@ -11,6 +11,10 @@
             {
                 type: "SectorComplete",
                 preset: "Northern-Cave"
+            }
+            {
+                type: "SectorComplete",
+                preset: "Canyon"
             }
         ]
     },
