@@ -1,10 +1,10 @@
 This mod adds 15/?? (currently) new sectors to the Erekir campaign. Each offers its own gameplay experience and differs in difficulty. The full list of new sectors:
 - Arcycite Fortress;
 - Arcycite Passage;
-- Arcycite Plains;
+- Arcycite Plains; Comment: This sector will be removed in mod version 1.2. It will be replaced with an updated version or another sector in the future.
 - Beryllium Bastion;
 - Canyon;
-- Dangerous Zone; Comment: This sector will be replaced or removed in future versions of the mod.
+- Dangerous Zone; Comment: This sector will be removed from campaigns in version 1.2, but will be available for custom play in the future. Its place in the campaigns will be occupied by another sector, which will be added in the future. Stay tuned.
 - Export Station;
 - Grott;
 - Mountain Barrier;
