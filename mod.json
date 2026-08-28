@@ -5,5 +5,6 @@
   "subtitle": "Now with 32 Erekir sectors."
   "description": "Significantly expands the Erekir campaign. The mod adds exclusively new sectors to the campaign. \n\nThis mod supports the following languages: \n- English \n- Russian \n-------------------------------------\n Значительно расширяет кампанию Эрекира. Мод добавляет исключительно новые сектора. \n\n Модификация поддерживает: \n- Русский \n- Английский"
   "version": "[red]1.1.1 beta",
-"minGameVersion": "159"
+  "minGameVersion": "159"
+  "hidden": true
 }
