@@ -1,3 +1,12 @@
 
     sector: 71
     planet: erekir
+    research: {
+        parent: "Grott",
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: "Grott"
+            }
+        ]
+    }
