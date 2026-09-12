@@ -2,7 +2,7 @@
     sector: 38,
     planet: "erekir",
     research: {
-        parent: "Northern-Cave",
+        parent: "Canyon",
         objectives: [
         "mech-refabricator"
         "chemical-combustion-chamber"
@@ -13,15 +13,11 @@
             }
             {
                 type: "SectorComplete",
-                preset: "Threeways"
-            }
-            {
-                type: "SectorComplete",
                 preset: "marsh"
             }
             {
                 type: "SectorComplete",
-                preset: "Northern-Cave"
+                preset: "Canyon"
             }
         ]
     },
