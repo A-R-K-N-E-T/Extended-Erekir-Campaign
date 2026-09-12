@@ -1,9 +1,0 @@
-      research: {
-          parent: "core-bastion"
-          objectives: [
-              {
-                  type: "SectorComplete"
-                  preset: "basin"
-              }
-          ]
-      }
