@@ -1,5 +1,5 @@
 
-    sector: 7,
+    sector: 3,
     planet: "erekir",
     research: {
         parent: "karst",
