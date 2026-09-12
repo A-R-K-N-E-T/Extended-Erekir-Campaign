@@ -1,5 +1,5 @@
 
-    sector: 86,
+    sector: 0,
     planet: "erekir",
     research: {
         parent: "intersect",
