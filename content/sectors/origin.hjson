@@ -8,5 +8,9 @@
                 type: "SectorComplete",
                 preset: "Grott"
             }
+            {
+                type: "SectorComplete",
+                preset: "export-station"
+            }
         ]
     }
