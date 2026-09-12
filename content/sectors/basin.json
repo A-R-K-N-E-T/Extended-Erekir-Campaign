@@ -1,6 +1,3 @@
 
     sector: 69
     planet: erekir
-    research: {
-        parent: "aegis"
-    }
