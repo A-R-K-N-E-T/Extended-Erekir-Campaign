@@ -2,7 +2,7 @@
     sector: 37,
     planet: "erekir",
     research: {
-        parent: "Threeways",
+        parent: "Northern-Cave",
         objectives: [
         "payload-mass-driver"
         "payload-loader"
@@ -13,7 +13,7 @@
             }
             {
                 type: "SectorComplete",
-                preset: "Threeways"
+                preset: "Northern-Cave"
             }
         ]
     },
