@@ -1,5 +1,5 @@
 
-    sector: 75,
+    sector: 20,
     planet: "erekir",
     research: {
         parent: "siege",
