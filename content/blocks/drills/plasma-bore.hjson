@@ -1,4 +1,5 @@
       research: {
+          parent: "core-bastion"
           objectives: [
               {
                   type: "SectorComplete"
