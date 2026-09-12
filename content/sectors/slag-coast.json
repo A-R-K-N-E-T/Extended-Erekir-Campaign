@@ -1,5 +1,5 @@
 
-    sector: 90,
+    sector: 13,
     planet: "erekir",
     research: {
         parent: "lake",
