@@ -16,5 +16,9 @@
                 type: "SectorComplete",
                 preset: "Mountain-barrier"
             }
+            {
+                type: "SectorComplete",
+                preset: "Eastern-Forest"
+            }
         ]
     }
