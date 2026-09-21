@@ -1,0 +1,20 @@
+
+    sector: 37,
+    planet: "erekir",
+    research: {
+        parent: "Northern-Cave",
+        objectives: [
+        "payload-mass-driver"
+        "payload-loader"
+        "payload-unloader"
+            {
+                type: "SectorComplete",
+                preset: "marsh"
+            }
+            {
+                type: "SectorComplete",
+                preset: "Northern-Cave"
+            }
+        ]
+    },
+    difficulty: 4

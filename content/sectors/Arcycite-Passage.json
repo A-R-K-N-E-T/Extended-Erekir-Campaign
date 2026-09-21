@@ -1,0 +1,21 @@
+
+    sector: 10,
+    planet: "erekir",
+    captureWave: 51
+    research: {
+        parent: "siege",
+        objectives: [
+        "cyanogen-synthesizer"
+        "cyanogen"
+            {
+                type: "SectorComplete",
+                preset: "siege"
+            }
+            {
+                type: "SectorComplete",
+                preset: "Arcycite-Fortress"
+            }
+                
+        ]
+    },
+    difficulty: 8

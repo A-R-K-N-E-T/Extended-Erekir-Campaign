@@ -1,0 +1,24 @@
+
+    sector: 15,
+    planet: "erekir",
+    research: {
+        parent: "Threeways",
+        objectives: [
+        "payload-mass-driver"
+        "payload-loader"
+        "payload-unloader"
+            {
+                type: "SectorComplete",
+                preset: "basin"
+            }
+            {
+                type: "SectorComplete",
+                preset: "split"
+            }
+            {
+                type: "SectorComplete",
+                preset: "Threeways"
+            }
+        ]
+    },
+    difficulty: 5

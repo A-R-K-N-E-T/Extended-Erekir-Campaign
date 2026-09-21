@@ -1,0 +1,24 @@
+
+    sector: 71
+    planet: erekir
+    research: {
+        parent: "Grott",
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: "Grott"
+            }
+            {
+                type: "SectorComplete",
+                preset: "export-station"
+            }
+            {
+                type: "SectorComplete",
+                preset: "Mountain-barrier"
+            }
+            {
+                type: "SectorComplete",
+                preset: "Eastern-Forest"
+            }
+        ]
+    }

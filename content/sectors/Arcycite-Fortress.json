@@ -1,0 +1,24 @@
+
+    sector: 38,
+    planet: "erekir",
+    research: {
+        parent: "Canyon",
+        objectives: [
+        "mech-refabricator"
+        "chemical-combustion-chamber"
+        "oxidation-chamber"
+            {
+                type: "SectorComplete",
+                preset: "basin"
+            }
+            {
+                type: "SectorComplete",
+                preset: "marsh"
+            }
+            {
+                type: "SectorComplete",
+                preset: "Canyon"
+            }
+        ]
+    },
+    difficulty: 7

@@ -1,0 +1,14 @@
+
+    sector: 13,
+    planet: "erekir",
+    research: {
+        parent: "lake",
+        objectives: [
+        "ship-fabricator"
+            {
+                type: "SectorComplete",
+                preset: "lake"
+            }
+        ]
+    },
+    difficulty: 3

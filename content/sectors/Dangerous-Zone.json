@@ -1,0 +1,13 @@
+
+    sector: 2,
+    planet: "erekir",
+    research: {
+        parent: "origin",
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: "origin"
+            }
+        ]
+    },
+    difficulty: 10

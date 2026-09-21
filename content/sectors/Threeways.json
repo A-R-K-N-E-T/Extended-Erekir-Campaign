@@ -1,0 +1,20 @@
+
+    sector: 36,
+    planet: "erekir",
+    captureWave: 26
+    research: {
+        parent: "atlas",
+        objectives: [
+        "electrolyzer"
+        "impact-drill"
+            {
+                type: "SectorComplete",
+                preset: "atlas"
+            }
+            {
+                type: "SectorComplete",
+                preset: "slag-coast"
+            }
+        ]
+    },
+    difficulty: 6

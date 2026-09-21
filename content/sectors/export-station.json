@@ -1,0 +1,17 @@
+
+    sector: 14,
+    planet: "erekir",
+    research: {
+        parent: "Canyon",
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: "ravine"
+            }
+            {
+                type: "SectorComplete",
+                preset: "Canyon"
+            }
+        ]
+    },
+    difficulty: 6
