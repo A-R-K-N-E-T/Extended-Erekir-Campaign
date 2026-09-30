@@ -1,1 +1,9 @@
-
+research: {
+        parent: "afflict",
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: "Eastern-Forest"
+            }
+        ]
+    }
