@@ -1,1 +1,10 @@
-
+{
+"research": {
+"objectives": [
+{
+type: "SectorComplete",
+preset: "Dangerous-Zone"
+}
+]
+}
+}
