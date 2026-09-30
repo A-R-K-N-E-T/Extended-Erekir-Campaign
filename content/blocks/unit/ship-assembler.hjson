@@ -1,6 +1,6 @@
 {
 "research": {
-"parent": "prime-refabricator",
+"parent": "tank-assembler",
 "objectives": [
 {
 type: "SectorComplete",
