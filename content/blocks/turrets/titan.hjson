@@ -1,4 +1,5 @@
 research: {
+        parent: afflict
         researchCost: [
               beryllium/300
               silicon/300
