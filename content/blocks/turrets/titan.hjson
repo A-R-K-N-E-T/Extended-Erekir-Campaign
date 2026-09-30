@@ -5,11 +5,16 @@
     "thorium/15000"
     "silicon/11000"
     "tungsten/9200"
-]
+],
 "objectives": [
+"afflict"
 {
 type: "SectorComplete",
 preset: "Arcycite-Fortress"
+}
+{
+type: "SectorComplete",
+preset: "stronghold"
 }
 ]
 }
