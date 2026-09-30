@@ -4,8 +4,6 @@
     research: {
         parent: "siege",
         objectives: [
-        "mech-assembler"
-        "tecta"
             {
                 type: "SectorComplete",
                 preset: "siege"
