@@ -1,5 +1,11 @@
 {
 "research": {
 "parent": "titan"
+"researchCost": [
+    "grphite/7300"
+    "silicon/9200"
+    "carbide/3000"
+    "oxide/1500"
+]
 }
 }
