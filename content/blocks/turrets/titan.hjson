@@ -1,9 +1,7 @@
 research: {
-        parent: "afflict",
-        objectives: [
-            {
-                type: "SectorComplete",
-                preset: "Eastern-Forest"
-            }
-        ]
-    }
+        researchCost: [
+              beryllium/300
+              silicon/300
+              phase-fabric/100
+          ]
+}
