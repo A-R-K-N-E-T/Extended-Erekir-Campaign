@@ -1,6 +1,11 @@
 {
 "research": {
 "parent": "afflict",
+"researchCost": [
+    "thorium/15000"
+    "silicon/11000"
+    "tungsten/9200"
+]
 "objectives": [
 {
 type: "SectorComplete",
