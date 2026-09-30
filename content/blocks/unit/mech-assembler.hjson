@@ -1,0 +1,11 @@
+{
+"research": {
+"parent": "prime-refabricator",
+"objectives": [
+{
+type: "OnSector",
+preset: "Eastern-Forest"
+}
+]
+}
+}
