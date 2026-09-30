@@ -4,7 +4,7 @@
 "objectives": [
 {
 type: "SectorComplete",
-preset: "Dangerous-Zone"
+preset: "Arcycite-Fortress"
 }
 ]
 }
