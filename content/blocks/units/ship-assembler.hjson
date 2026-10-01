@@ -6,11 +6,11 @@ research: {
       preset: "crossroads"
     }
   ]
+  requirements: [
+    "thorium/21000"
+    "silicon/52000"
+    "tungsten/34000"
+    "oxide/8000"
+    "carbide/2100"
+  ]
 }
-researchCost: [
-  thorium/21000
-  silicon/52000
-  tungsten/34000
-  oxide/8000
-  carbide/2100
-]
