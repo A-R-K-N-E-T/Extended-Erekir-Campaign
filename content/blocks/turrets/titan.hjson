@@ -1,5 +1,11 @@
 research: {
         parent: afflict
+        objectives: [
+            {
+              type: "SectorComplete"
+              preset: "Arcycite-Fortress"
+            }
+          ]
         requirements: [
               thorium/6700
               silicon/9200
