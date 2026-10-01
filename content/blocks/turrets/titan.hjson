@@ -7,8 +7,8 @@ research: {
             }
           ]
         requirements: [
-              thorium/6700
-              silicon/9200
-              tungsten/7800
+              thorium/6500
+              silicon/9000
+              tungsten/8000
           ]
 }
