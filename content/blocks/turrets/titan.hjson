@@ -1,8 +1,7 @@
 research: {
         parent: afflict
         requirements: [
-              thorium/6500
-              silicon/9000
-              tungsten/8000
+              thorium/650
+              silicon/900
           ]
 }
