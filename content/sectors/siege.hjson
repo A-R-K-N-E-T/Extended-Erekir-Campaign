@@ -2,7 +2,7 @@
     sector: 82
     planet: erekir
     research: {
-        parent: caldera-erekir
+        parent: cresive
         objectives: [
             {
                 type: "SectorComplete",
