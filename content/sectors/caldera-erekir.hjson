@@ -1,3 +1,11 @@
 
     sector: 23
     planet: erekir
+     research: {
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: "slag-coast"
+            }
+        ]
+    }
