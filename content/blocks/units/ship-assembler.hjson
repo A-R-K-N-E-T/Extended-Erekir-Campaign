@@ -2,7 +2,7 @@ research: {
   parent: tank-assembler
   requirements: [
     thorium/29000
-    silicon/81000
+    silicon/52000
     tungsten/37000
     oxide/10400
     carbide/3800
