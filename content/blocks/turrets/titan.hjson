@@ -5,4 +5,10 @@ research: {
               silicon/9000
               tungsten/7200
           ]
-}
+         objectives: [
+            {
+              type: SectorComplete
+              preset: Arcycite-Fortress
+            }
+          ]
+        }
