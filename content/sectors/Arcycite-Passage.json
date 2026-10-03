@@ -10,12 +10,7 @@
             {
                 type: "SectorComplete",
                 preset: "siege"
-            }
-            {
-                type: "SectorComplete",
-                preset: "Arcycite-Fortress"
-            }
-                
+            }         
         ]
     },
     difficulty: 8
