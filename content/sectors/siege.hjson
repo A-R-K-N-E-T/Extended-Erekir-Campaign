@@ -2,7 +2,7 @@
     sector: 82
     planet: erekir
     research: {
-        parent: cresive
+        parent: crevice
         objectives: [
             {
                 type: "SectorComplete",
