@@ -2,10 +2,15 @@
     sector: 23
     planet: erekir
      research: {
+        parent: ravine
         objectives: [
             {
                 type: "SectorComplete",
                 preset: "slag-coast"
+            }
+            {
+                type: "SectorComplete",
+                preset: "ravine"
             }
         ]
     }
