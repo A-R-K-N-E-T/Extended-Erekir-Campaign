@@ -1,3 +1,20 @@
 
     sector: 40
     planet: erekir
+     research: {
+        parent: caldera-erekir
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: "caldera-erekir"
+            }
+            {
+                type: "SectorComplete",
+                preset: "peaks"
+            }
+            {
+                type: "SectorComplete",
+                preset: "Northern-Cave"
+            }
+        ]
+    }
