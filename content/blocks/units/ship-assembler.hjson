@@ -1,11 +1,12 @@
 research: {
   parent: tank-assembler
   requirements: [
-    thorium/21000
+    thorium/29000
     silicon/52000
-    tungsten/34000
-    oxide/8000
-    carbide/2100
+    tungsten/37000
+    oxide/10400
+    carbide/3800
+    
   ]
   objectives: [
     {
