@@ -2,7 +2,7 @@
     sector: 83
     planet: erekir
     research: {
-        parent: caldera-erekir
+        parent: siege
         objectives: [
             {
                 type: "SectorComplete",
