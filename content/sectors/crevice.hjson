@@ -6,7 +6,7 @@
         objectives: [
             {
                 type: "SectorComplete",
-                preset: "citadel"
+                preset: "stronghold"
             }
         ]
     }
