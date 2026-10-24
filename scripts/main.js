@@ -11,13 +11,13 @@ Events.on(ClientLoadEvent, cons(e => {
             let mod = Vars.mods.locateMod("eec");
             
             if (mod != null) {
-                // Получаем файл строго из папки мода: моды/eec/maps/betterlake.msav
+                // Получаем файл строго из папки мода: eec/maps/betterlake.msav
                 let mapFile = mod.root.child("maps").child("betterlake.msav");
                 
                 if (mapFile.exists()) {
-                    // Используем полное имя Java-класса mindustry.maps.Map, 
-                    // чтобы JS не спутал его со своим встроенным объектом Map
-                    let map = new mindustry.maps.Map(mapFile);
+                    // Используем Packages.mindustry.maps.Map для правильного вызова Java-класса в Rhino,
+                    // чтобы JS не путал его со своим встроенным конструктором Map
+                    let map = new Packages.mindustry.maps.Map(mapFile);
                     
                     // Привязываем карту к генератору сектора
                     targetSector.generator = new SectorGen(targetSector, map);
