@@ -13,15 +13,12 @@ Events.on(ClientLoadEvent, cons(e => {
                 let mapFile = modFiles.root.child("maps").child("betterlake.msav");
                 
                 if (mapFile.exists()) {
-                    // Используем Vars.maps.add() для загрузки карты из файла мода
-                    let map = Vars.maps.add(mapFile);
+                    // Создаем объект карты напрямую из файла через конструктор Map
+                    let map = new Map(mapFile);
                     
-                    if (map != null) {
-                        targetSector.generator = new SectorGen(targetSector, map);
-                        Log.info("Успешно заменена карта для сектора lake на betterlake.msav");
-                    } else {
-                        Log.err("Не удалось загрузить карту betterlake.msav");
-                    }
+                    // Привязываем карту к генератору сектора
+                    targetSector.generator = new SectorGen(targetSector, map);
+                    Log.info("Успешно заменена карта для сектора lake на betterlake.msav");
                 } else {
                     Log.err("Файл betterlake.msav не найден в папке maps вашего мода!");
                 }
