@@ -2,31 +2,29 @@ Events.on(ClientLoadEvent, cons(e => {
     // 1. Изменяем стартовый сектор Эркира
     Planets.erekir.startSector = 90;
 
-    // 2. Замена карты для сектора "Озеро" (lake)
+    // 2. Замена карты для сектора "Озеро" (lake) из файлов мода
     try {
         let targetSector = SectorPresets.lake; 
 
         if (targetSector != null) {
-            // Ищем карту в общем списке загруженных карт игры по имени файла или названию
-            // (Убедитесь, что файл betterlake.msav также добавлен в стандартную папку карт игры или правильно читается модом)
-            let foundMap = null;
+            // Находим наш мод по его ID ("eec")
+            let mod = Vars.mods.locateMod("eec");
             
-            // Перебираем карты через стандартный цикл Java-коллекции, чтобы избежать проблем с Symbol.iterator
-            let mapsIterator = Vars.maps.all().iterator();
-            while (mapsIterator.hasNext()) {
-                let m = mapsIterator.next();
-                // Проверяем имя файла карты
-                if (m.file.name().contains("betterlake")) {
-                    foundMap = m;
-                    break;
+            if (mod != null) {
+                // Получаем файл строго из папки мода: моды/eec/maps/betterlake.msav
+                let mapFile = mod.root.child("maps").child("betterlake.msav");
+                
+                if (mapFile.exists()) {
+                    // Используем полное имя Java-класса mindustry.maps.Map, 
+                    // чтобы JS не спутал его со своим встроенным объектом Map
+                    let map = new mindustry.maps.Map(mapFile);
+                    
+                    // Привязываем карту к генератору сектора
+                    targetSector.generator = new SectorGen(targetSector, map);
+                    Log.info("Успешно заменена карта для сектора lake на файл из мода!");
+                } else {
+                    Log.err("Файл betterlake.msav не найден в папке maps мода!");
                 }
-            }
-
-            if (foundMap != null) {
-                targetSector.generator = new SectorGen(targetSector, foundMap);
-                Log.info("Успешно заменена карта для сектора lake!");
-            } else {
-                Log.err("Карта с именем betterlake не найдена в реестре карт игры!");
             }
         } else {
             Log.err("Сектор lake не найден!");
