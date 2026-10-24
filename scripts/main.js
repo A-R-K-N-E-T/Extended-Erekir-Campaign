@@ -7,21 +7,26 @@ Events.on(ClientLoadEvent, cons(e => {
         let targetSector = SectorPresets.lake; 
 
         if (targetSector != null) {
-            let modFiles = Vars.mods.locateMod("eec");
+            // Ищем карту в общем списке загруженных карт игры по имени файла или названию
+            // (Убедитесь, что файл betterlake.msav также добавлен в стандартную папку карт игры или правильно читается модом)
+            let foundMap = null;
             
-            if (modFiles != null) {
-                let mapFile = modFiles.root.child("maps").child("betterlake.msav");
-                
-                if (mapFile.exists()) {
-                    // Создаем объект карты напрямую из файла через конструктор Map
-                    let map = new Map(mapFile);
-                    
-                    // Привязываем карту к генератору сектора
-                    targetSector.generator = new SectorGen(targetSector, map);
-                    Log.info("Успешно заменена карта для сектора lake на betterlake.msav");
-                } else {
-                    Log.err("Файл betterlake.msav не найден в папке maps вашего мода!");
+            // Перебираем карты через стандартный цикл Java-коллекции, чтобы избежать проблем с Symbol.iterator
+            let mapsIterator = Vars.maps.all().iterator();
+            while (mapsIterator.hasNext()) {
+                let m = mapsIterator.next();
+                // Проверяем имя файла карты
+                if (m.file.name().contains("betterlake")) {
+                    foundMap = m;
+                    break;
                 }
+            }
+
+            if (foundMap != null) {
+                targetSector.generator = new SectorGen(targetSector, foundMap);
+                Log.info("Успешно заменена карта для сектора lake!");
+            } else {
+                Log.err("Карта с именем betterlake не найдена в реестре карт игры!");
             }
         } else {
             Log.err("Сектор lake не найден!");
