@@ -4,4 +4,6 @@ Events.on(ClientLoadEvent, cons(e => {
     lake.generator = new FileMapGenerator("betterlake", lake);
     const atlas = SectorPresets.atlas;
     atlas.generator = new FileMapGenerator("betteratlas", atlas);
+    const intersect = SectorPresets.intersect;
+    intersect.generator = new FileMapGenerator("betterintersect", intersect);
 }));
