@@ -1,3 +1,18 @@
 
     sector: 16
     planet: erekir
+    research: {
+        parent: "intersect",
+        objectives: [
+            "merui"
+            "elude"
+            {
+                type: "SectorComplete",
+                preset: "intersect"
+            }
+            {
+                type: "SectorComplete",
+                preset: "lake"
+            }
+        ]
+    }
