@@ -1,6 +1,7 @@
 
     sector: 32
     planet: erekir
+    captureWave: 13
     research: {
         parent: aegis
         objectives: [
