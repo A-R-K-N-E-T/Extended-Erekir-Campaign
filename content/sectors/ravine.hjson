@@ -1,4 +1,14 @@
 
     sector: 65
     planet: erekir
+    research: {
+        parent: "marsh",
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: "marsh"
+            }
+        ]
+    }
+
     difficulty: 6
