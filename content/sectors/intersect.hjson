@@ -1,3 +1,12 @@
 
     sector: 32
     planet: erekir
+    research: {
+        parent: aegis
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: "aegis"
+            }
+        ]
+    }
