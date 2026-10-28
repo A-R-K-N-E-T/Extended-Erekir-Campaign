@@ -1,3 +1,13 @@
 
     sector: 24
     planet: erekir
+    research: {
+        parent: "marsh",
+        objectives: [
+            {
+                type: "SectorComplete",
+                preset: "marsh"
+            }
+        ]
+    }
+
